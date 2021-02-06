@@ -4,13 +4,13 @@
 <!-- nav -->
 | [🏠 Home](https://sswellington.github.io/)
 | [📝 Blog](https://sswellington.github.io/blog/)
-| [🤵 About](https://sswellington.github.io/sobre/)
+| [👨‍🏫 Presentations](https://github.com/sswellington/presentations)
 | [🐱 Github](https://github.com/sswellington)
+| [📊 Photos](https://sswellington.github.io/photos/)
 | [🐦 Twitter](https://twitter.com/__wellws__)
 | [💼 Linkedin](https://www.linkedin.com/in/sswellington/)
-| [👨‍🏫 Presentations](https://github.com/sswellington/presentations)
-| [📊 Photos](https://sswellington.github.io/photos/)
-| 
+| [🤵 About](https://sswellington.github.io/about/)
+
 
 ---
 
@@ -37,7 +37,7 @@ Aqui é Wellington, eu sou formado em Ciência da Computação pela Universidade
 - 👯 Estou procurando colaborar em projetos divertidos em Python e Jekyll.
 - 💬 Pergunte sobre Tecnologia da Informação ou relacionado a cultura.
 - 📫 Como entrar em contato comigo: wellingtons@id.uff.br ou [__wellws__](twitter.com/__wellws__)
-- 😄 Pronomes: Ele
+- 😄 Pronome: Ele
 
 ---
 
