@@ -1,0 +1,31 @@
+:root {
+    --nc-lk-1: #000000;
+    --nc-lk-2: #1A1A1A;
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --nc-tx-1: var(--nc-d-tx-1);
+        --nc-tx-2: var(--nc-d-tx-2);
+        --nc-bg-1: var(--nc-d-bg-1);
+        --nc-bg-2: var(--nc-d-bg-2);
+        --nc-bg-3: var(--nc-d-bg-3);
+        --nc-lk-1: var(--nc-d-tx-1);
+        --nc-lk-2: var(--nc-d-tx-2);
+        --nc-lk-tx: var(--nc--dlk-tx);
+        --nc-ac-1: var(--nc-d-ac-1);
+        --nc-ac-tx: var(--nc--dac-tx);
+    }
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
