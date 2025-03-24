@@ -5,6 +5,50 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unrelease
+### Changed
+
+#### Documentação do Projeto de Reescrita do Site
+
+##### Introdução
+
+Este projeto tem como objetivo reescrever o site pessoal e o blog atualmente hospedados no GitHub Pages, eliminando dependências de terceiros, como o Jekyll. Todo o site será gerado estaticamente utilizando apenas C#, JavaScript, CSS e HTML, sem uso de bibliotecas externas.
+
+##### Estrutura do Projeto
+
+A estrutura de diretórios do projeto será organizada da seguinte forma:
+
+/
+│-- /posts          # Armazena os posts do blog em formato Markdown
+│-- /templates      # Contém os arquivos de layout base do site
+│-- /assets         # Inclui imagens, estilos CSS e scripts JS
+│-- /output         # Pasta onde os arquivos HTML finais serão gerados
+│-- generator.cs    # Script em C# para gerar os arquivos HTML
+│-- generator.js    # Alternativa em JavaScript para geração do site
+│-- index.html      # Página inicial do site
+│-- config.json     # Arquivo de configuração do gerador
+
+##### Tarefas
+- Estrutura do Site
+- Geração dos Arquivos Estáticos
+- Publicação no GitHub Pages
+- Backlog
+- Criar script para automatizar execução dos geradores
+- Adicionar suporte a metadados nos posts
+- Melhorar estilos visuais do site
+- Criar documentação de uso para novos contribuidores
+
+##### Conclusão
+Essa abordagem garante um site leve, sem dependências externas, fácil de manter e completamente estático, compatível com o GitHub Pages.
+
+## 1.0.1 - 2025-03-23
+### Fix
+- Assets
+    - style.css: Footer
+
+### Chore
+- Pages: About
+
 ## 1.0.0 - 2024-06-30
 ### Added
 - Assets

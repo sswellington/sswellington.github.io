@@ -26,10 +26,27 @@ a:hover {
     text-decoration-line: underline;
 }
 
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    clear: both;
     text-align: center;
+    background: var(--nc-bg-2);
+    margin: 1rem calc(0px - (50vw - 50%)) 1rem;
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+}
+
+footer span {
+    color: var(--nc-d-lk-2);
+    font-size: 9pt;
+    font-family: arial;
+    position: relative;
+}
+
+footer:hover span {
+    opacity: 1;
 }
